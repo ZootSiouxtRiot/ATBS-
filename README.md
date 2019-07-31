@@ -1,4 +1,3 @@
-# hello-world
-first repo
+# One
+first edit
 
-This is my first repo README edit.  Blind luck is underrated.
