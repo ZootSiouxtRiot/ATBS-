@@ -1,0 +1,22 @@
+name = 'John Doe'
+age = 40
+height = 73 # inches
+conversionh = 2.54 # centimeters
+weight = 211 # pounds
+conversionw = 0.453592 # conversion to kilograms
+UKheight = height * conversionh
+UKweight = weight * conversionw
+
+teeth = 'White'
+hair = "Brownish"
+
+print "Let's talk about %s." % name
+print "He's %d inches tall." % height
+print "He weighs %d pounds in the USA." % weight
+print "He has %s eyes and %s hair." % (eyes, hair)
+print "His teeth are usually %s depending on the coffee." % teeth
+
+
+ # calculation
+print "His height and weight vary in the UK. In England, he is %d centimeters tall and he weighs %d kilograms."  % ( height * conversionh,
+ weight * conversionw)
